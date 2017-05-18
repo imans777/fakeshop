@@ -1,0 +1,51 @@
+<div class="row">
+    <div class="col-sm-6 col-md-4 col-md-offset-4 col-sm-offset-3">
+        <div id="success" class="alert {{#if isErr}}alert-danger{{else}}alert-success{{/if}}" {{#if noMessage}}hidden{{/if}}>
+            {{ successMsg }}
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-7 col-sm-7">
+        <h2>Products:</h2>
+        <hr>
+    </div>
+    <form action="/" method="get">
+        <div class="col-md-4 col-sm-4">
+            <input type="text" class="form-control" name="search" style="margin-top: 1.5em; margin-bottom: 1.5em;" placeholder="Search Title">
+        </div>
+        <div class="col-md-1 col-sm-1">
+            <input type="submit" class="btn btn-primary" style="margin-top: 1.5em; margin-bottom: 1.5em;" value="Search">
+        </div>
+    </form>
+
+</div>
+
+{{# each products }}
+  <div class="row">
+    {{# each this }}
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <h3 class="caption">{{this.title}}</h3>
+          <img src="{{this.imagePath}}" alt="..." class="img-responsive" id="general_img">
+          <div class="caption">
+
+            <p class="description">{{this.brief_description}}...</p>
+            <div>
+              <div class="clearfix">
+                <br>
+                <div class="pull-left">&nbsp;Author: {{this.owner}}</div>
+                <div class="pull-right">{{this.date}}</div>
+                <br>
+                <a href="/product/{{this._id}}" class="btn btn-default pull-left btn-primary" role="button">Details ...</a>
+                <a href="/add-to-cart/{{this._id}}" class="btn btn-default pull-right btn-success" role="button">Add To Cart</a>
+                <div class="price pull-right pro-label">${{this.price}}&nbsp;&nbsp;&nbsp;</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+{{/each}}

@@ -1,0 +1,35 @@
+{{# if hasProblem}}
+<div class="row">
+    <div class="col-sm-6 col-md-4 col-md-offset-4 col-sm-offset-3">
+        <div id="success" class="alert alert-danger" {{#if notProblem}}hidden{{/if}}>
+            {{ message }}
+        </div>
+    </div>
+</div>
+{{else}}
+<div class="row">
+        <div class="col-sm-12 col-md-8 col-md-offset-2">
+            <div class="thumbnail">
+                <h2 class="caption">{{product.title}}</h2>
+                <br>
+                <img src="{{product.imagePath}}" alt="..." class="img-responsive" id="product_img">
+                <div class="caption">
+                    <br>
+                    <p class="description" style="font-size: 1.5em;">{{product.description}}</p>
+                    <div>
+                        <div class="clearfix">
+                            <br>
+                            <div class="pull-left">Author: {{product.owner}}</div>
+                            <br>
+                            <div class="pull-left">Date: {{product.date}}</div>
+                            <br>
+                            <div class="price pull-left pro-label col-md-offset-7">${{product.price}}</div>
+                            <a href="/add-to-cart/{{product._id}}" class="btn btn-default pull-right btn-success col-md-4" role="button">Add To Cart</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+{{/if}}

@@ -1,0 +1,35 @@
+/* body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+*/
+
+body {
+	background-color: #ecf0f1;
+}
+
+#general_img {
+	max-height: 200px;
+
+}
+
+#product_img {
+	max-height: 50vw;
+}
+
+.pro-label {
+	margin-top: 6px;
+}
+
+.thumbnail .description {
+	color: #747474;
+}
+
+.thumbnail .price {
+	font-weight: bold;
+	font-size: 16px;
+}

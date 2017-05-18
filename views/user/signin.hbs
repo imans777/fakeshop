@@ -1,0 +1,39 @@
+<div class="row">
+	<div class="col-md-4 col-md-offset-4">
+		<h1><span class="fa fa-sign-in"></span> Sign In</h1>
+		{{#if hasErrors}}
+			<div class="alert alert-danger">
+				{{# each messages}}
+					<p>{{this}}</p>
+				{{/each}}
+			</div>
+		{{/if}}
+        <br>
+        <!-- Add where you want your sign-in button to render -->
+
+        <form action="/auth/google/callback" method="post">
+              <input type="submit" id="signinButton" class="g-signin"
+                    data-scope="https://www.googleapis.com/auth/plus.login"
+                    data-clientid="855842568245-o6avt6qd8psun8go0eauherhk9uhk53l.apps.googleusercontent.com"
+                    data-redirecturi="postmessage"
+                    data-accesstype="offline"
+                    data-cookiepolicy="single_host_origin"
+                    data-callback="signInCallback" value="Click">
+        </form>
+        <div id="result"></div>
+		<form action="/user/signin" method="post">
+			<div class="form-group">
+				<label for="email">E-Mail</label>
+				<input type="text" id="email" name="email" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="password">Password</label>
+				<input type="password" id="password" name="password" class="form-control">
+			</div>
+			<input type="hidden" name="_csrf" value="{{ csrfToken }}">
+			<button type="submit" class="btn btn-primary">Sign In</button>
+		</form>
+        <br>
+        <p style="font-size: large">Don't Have An Account? <a href="/user/signup">Sign Up Now!</a></p>
+	</div>
+</div>
