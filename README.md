@@ -16,7 +16,6 @@ Features that are going to be added to the application:
 - An individual page for managing all the user's products
 -  Make the done bills's link available so that one can click on it and redirect to the product's page
 - Delete/update products
-- Login via username/google too
 - Current money on your account / 200$ by default in it ;-)
 - Expand the search by costs, person, dates, etc.
 - 15 Products per page
@@ -24,3 +23,6 @@ Features that are going to be added to the application:
 - Adding a sidebar in which the lastest products, comments, etc. are shown
 - Confirming the account via "Confirmation-Email"
 - There will be an "Admin" to have the authority to manage things!
+
+Added:
+- Login via username/google too
