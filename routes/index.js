@@ -13,6 +13,7 @@ var User = require('../models/user');
  ------------------ DONE ------------->
  --TODO: /product/:id 	-> individual product page for more information and ...
  --TODO: /?title="b"		-> be a filter-like for products / if products e.g more than 20, have next pages for it / search button
+ TODO: /user/signin		-> login via username too / login via google too
 
  ------------------ WORKING ON THEM -->
  TODO: /user/pro?username-> show the 'username's profile (username/email/gravatar!/number of posts/number of bills/number of being likeds/last comment!)
@@ -24,7 +25,6 @@ var User = require('../models/user');
  TODO: /user/products 	-> all the created products are here
  TODO: make the done bills's link available so that we can click on it and redirect to the product
  TODO: delete/update products
- TODO: /user/signin		-> login via username too / login via google too
  TODO: current money on your account / 200$ by default in it
  TODO: expand the search by costs, person, dates, etc.
  ----------------- WHEN DONE ---------->
@@ -34,10 +34,46 @@ var User = require('../models/user');
  --------------------- THIS WILL BE YOUR VERY EXCELLENT PORTFOLIO :D ---------------------
 */
 
+
+var google = require('googleapis');
+var OAuth2 = google.auth.OAuth2;
+
+var oauth2Client = new OAuth2(
+    '855842568245-o6avt6qd8psun8go0eauherhk9uhk53l.apps.googleusercontent.com',
+    'IPRMrsrtVHGF9yYS7hqP9IZu',
+    'http://localhost:3000'
+);
+
+// generate a url that asks permissions for Google+ and Google Calendar scopes
+var scopes = [
+    'https://www.googleapis.com/auth/plus.me',
+    'https://www.googleapis.com/auth/calendar'
+];
+//
+// module.exports = {
+//     google: google,
+//     OAuth2: OAuth2,
+//     oauth2Client: oauth2Client,
+//     scopes: scopes
+// }
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    var searchedTitle = decodeURI(url.parse(req.url).query);
-	var questionTitle = searchedTitle.substr(0, searchedTitle.indexOf('='));
+
+	if(req.query.code)
+	{
+        oauth2Client.getToken(req.query.code, function (err, tokens) {
+            // Now tokens contains an access_token and an optional refresh_token. Save them.
+            if (!err) {
+                oauth2Client.setCredentials(tokens);
+                console.log("SUCCESSFULLY! " + tokens);
+            }
+        });
+	}
+
+    // var searchedTitle = decodeURI(url.parse(req.url).query);
+    // var questionTitle = searchedTitle.substr(0, searchedTitle.indexOf('='));
+	// console.log("SEARCHED: " + req.query.search); //NOTE THIS!
 	var sendObj = {
         title: 'Shop',
         products: [],
@@ -45,11 +81,11 @@ router.get('/', function(req, res, next) {
         noMessage: false,
         isErr: true
 	};
-	searchedTitle = searchedTitle.substr(searchedTitle.indexOf('=') + 1, searchedTitle.length - searchedTitle.indexOf('='));
-	searchedTitle = searchedTitle.replace('+', ' ');
+	// searchedTitle = searchedTitle.substr(searchedTitle.indexOf('=') + 1, searchedTitle.length - searchedTitle.indexOf('='));
+	// searchedTitle = searchedTitle.replace('+', ' ');
 	// console.log(searchedTitle);
 	// console.log(searchedTitle.length);
-	if (searchedTitle.length == 4 && (searchedTitle == 'null' || searchedTitle == null)) {
+	if (!req.query.search) {
 		Product.find(function handleDB(err, docs) {
 			sendObj.successMsg = req.flash('success')[0];
             sendObj.noMessage = !sendObj.successMsg;
@@ -64,12 +100,13 @@ router.get('/', function(req, res, next) {
 			res.render('shop/index', sendObj);
 		});
 	}else {
-        if(questionTitle != 'search') {
-            sendObj.title = 'Error';
-            sendObj.successMsg = 'Title Unexpected!';
-            res.render('shop/index', sendObj);
-            return;
-        }
+        // if(questionTitle != 'search') {
+        //     sendObj.title = 'Error';
+        //     sendObj.successMsg = 'Title Unexpected!';
+        //     res.render('shop/index', sendObj);
+        //     return;
+        // }
+        var searchedTitle = req.query.search;
 		Product.find({'title': {$regex: searchedTitle, $options: 'i'}}).exec(function handleDB(err, docs) {
 			sendObj.isErr = false;
 			var sentence;

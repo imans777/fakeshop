@@ -11,6 +11,38 @@ var gravatar = require('gravatar');
 
 var csrfProtection = csrf();
 
+router.get('/auth/google', passport.authenticate('google', { scope: [
+    'https://www.googleapis.com/auth/plus.login',
+    'https://www.googleapis.com/auth/plus.profile.emails.read'
+    ]}
+));
+
+router.get( '/auth/google/callback', passport.authenticate( 'google', {
+    successRedirect: '/',
+    failureRedirect: '/user/signup',
+    failureFlash: true
+}), function(req, res, next) {
+    var oldUrl = '/user/account';
+    if(req.session.oldUrl) {
+        oldUrl = req.session.oldUrl;
+        req.session.oldUrl = null;
+    }
+    // req.session.user = ;
+    // req.app.locals.username = ;
+    res.redirect(oldUrl);
+        // User.findOne({'email': req.body.email}, function(err, user) {
+        //     if(err) {
+        //         return res.write('Unexpected Error.');
+        //     }
+        //     if(!user) {
+        //         return res.write('User Not Found!');
+        //     }
+        //     req.session.user = user;
+        //     req.app.locals.username = user.username;
+        //     res.redirect('/user/account');
+        // });
+});
+
 router.post('/setting', isLoggedIn, function(req, res, next) {
     User.findOneAndUpdate({
         'email': req.session.user.email
@@ -145,7 +177,7 @@ router.post('/signin', passport.authenticate('local.signin', {
     if(req.session.oldUrl) {
         var oldUrl = req.session.oldUrl;
         req.session.oldUrl = null;
-        User.findOne({'email': req.body.email}, function(err, user) {
+        User.findOne({ $or:[{'username': req.body.email}, {'email': req.body.email}] }, function(err, user) {
             if(err) {
                 return res.write('Unexpected Error.');
             }
@@ -157,7 +189,7 @@ router.post('/signin', passport.authenticate('local.signin', {
             res.redirect(oldUrl);
         });
     } else {
-        User.findOne({'email': req.body.email}, function(err, user) {
+        User.findOne({ $or:[{'username': req.body.email}, {'email': req.body.email}] }, function(err, user) {
             if(err) {
                 return res.write('Unexpected Error.');
             }

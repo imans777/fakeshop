@@ -59,21 +59,88 @@ app.use(function(req, res, next) {
 });
 
 
-app.get('/auth/google',
-    passport.authenticate('google', { scope: ['profile'] }));
-
-app.get('/auth/google/callback',
-    passport.authenticate('google', { failureRedirect: '/user/signin' }),
-    function(req, res) {
-        // Successful authentication, redirect home.
-        res.redirect('/');
-});
-app.post('/auth/google/callback', passport.authenticate('google'), function(req, res) {
-    // Return user back to client
-    res.send(req.user);
-});
-
-
+// app.get('/auth/google',
+//     passport.authenticate('google', { scope: ['profile'] }));
+//
+// app.get('/auth/google/callback',
+//     passport.authenticate('google', { failureRedirect: '/user/signin' }),
+//     function(req, res) {
+//         // Successful authentication, redirect home.
+//         res.redirect('/');
+// });
+// app.post('/auth/google/callback', passport.authenticate('google'), function(req, res) {
+//     // Return user back to client
+//     res.send(req.user);
+// });
+//
+// app.use('/auth/google/callback', function(req, res, next) {
+//     // var google = require('googleapis');
+//     // var plus = google.plus('v1');
+//     //
+//     // var API_KEY = 'ABC123'; // specify your API key here
+//     //
+//     // plus.people.get({
+//     //     auth: API_KEY,
+//     //     userId: 'me'
+//     // }, function (err, user) {
+//     //     console.log('Result: ' + (err ? err.message : user.displayName));
+//     // });
+//     //-----------------------------------------------------
+//     var google = require('googleapis');
+//     var OAuth2 = google.auth.OAuth2;
+//
+//     var oauth2Client = new OAuth2(
+//         '855842568245-o6avt6qd8psun8go0eauherhk9uhk53l.apps.googleusercontent.com',
+//         'IPRMrsrtVHGF9yYS7hqP9IZu',
+//         'http://localhost:3000'
+//     );
+//
+// // generate a url that asks permissions for Google+ and Google Calendar scopes
+//     var scopes = [
+//         'https://www.googleapis.com/auth/plus.me',
+//         'https://www.googleapis.com/auth/calendar'
+//     ];
+//
+//     var url = oauth2Client.generateAuthUrl({
+//         // 'online' (default) or 'offline' (gets refresh_token)
+//         access_type: 'offline',
+//
+//         // If you only need one scope you can pass it as a string
+//         scope: scopes
+//
+//         // Optional property that passes state parameters to redirect URI
+//         // state: { foo: 'bar' }
+//     });
+//     //http://localhost:3000/?code=4/6nNjZk15ekX5lZXtDOuSsKkahIzTBWTjcn0c9EAJki4#
+//     console.log("URL : " + url);
+//     res.redirect(url);
+//
+//
+//     //---------------------------------
+// //     var google = require('googleapis');
+// //     var plus = google.plus('v1');
+// //     var OAuth2 = google.auth.OAuth2;
+// //     var oauth2Client = new OAuth2(
+// //         '855842568245-o6avt6qd8psun8go0eauherhk9uhk53l.apps.googleusercontent.com',
+// //         'IPRMrsrtVHGF9yYS7hqP9IZu',
+// //         'http://localhost:3000'
+// //     );
+// //
+// // // Retrieve tokens via token exchange explained above or set them:
+// //     oauth2Client.setCredentials({
+// //         access_token: 'ACCESS TOKEN HERE',
+// //         refresh_token: 'REFRESH TOKEN HERE'
+// //         // Optional, provide an expiry_date (milliseconds since the Unix Epoch)
+// //         // expiry_date: (new Date()).getTime() + (1000 * 60 * 60 * 24 * 7)
+// //     });
+// //
+// //     plus.people.get({
+// //         userId: 'me',
+// //         auth: oauth2Client
+// //     }, function (err, response) {
+// //         // handle err and response
+// //     });
+// });
 
 app.use('/user', userRoutes);
 app.use('/', index);
