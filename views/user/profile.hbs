@@ -1,47 +1,62 @@
-<div class="row">
-    <div class="col-md-2 col-sm-4" style="margin-top: 20px;">
-        <img src="{{user.image}}" style="border-radius: 100px; height: 10em;">
-    </div>
-    <div class="col-md-8 col-sm-8">
-        <h1>User Setting</h1>
-        <hr>
-        <div id="charge-error" class="alert {{#if hasErrorSetting}}alert-danger{{else}}alert-success{{/if}} {{#if hasSomething}}hidden{{/if}}">
-            {{errMsgSetting}}
-        </div>
-        <form action="/user/setting" method="post">
-            <div class="form-group">
-                <label for="username">Username: <strong style="color: blue;"><a href="/user/account">{{user.username}}</a></strong></label>
+<div class="container">
+    <div class="row">
+        {{#if hasError}}
+            <br><br><br>
+            <div class="alert alert-danger text-center">
+                <p>{{message}}</p>
             </div>
-            <div class="form-group">
-                <label for="username">E-mail: <strong style="color: blue;"><a href="mailto:{{ user.email }}">{{user.email}}</a></strong></label>
-            </div>
-            <div class="row">
-                <div class="form-group col-md-5">
-                    <label for="age">Age:</label>
-                    <input type="number" id="age" name="age" class="form-control" size="2" value="{{ user.age }}">
-                </div>
-                <div class="form-group col-md-5 col-md-offset-2">
-                    <label for="sex">Gender:</label>
-                    <div class="row" style="margin-top: 8px;">
-                        <div class="col-md-4 col-md-offset-1 form-check">
-                            <input type="radio" id="sex" name="sex" value="male" {{# if isMan}}checked{{/if}}><strong> Male</strong>
+        {{else}}
+            <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
+                <h1 class="text-center">{{user.username}}'s Profile</h1>
+                <hr>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4">
+                        <img src="{{user.image}}" alt="{{user.username}} gravatar picture" class="gravatar-img img-responsive img-circle">
+                    </div>
+                    <br>
+                    <div class="col-md-8 col-sm-8">
+                        <div class="form-group profile-element">
+                            <label for="username">Username: <strong style="color: blue;"><a href="/user/profile/{{user.userID}}">{{user.username}}</a></strong></label>
                         </div>
-                        <div class="col-md-4 col-md-offset-1">
-                            <input type="radio" id="sex" name="sex" value="female" {{# if isWoman}}checked{{/if}}><strong> Female</strong>
+                        <div class="form-group profile-element">
+                            <label for="email">E-mail: <strong style="color: blue;"><a href="mailto:{{ user.email }}">{{user.email}}</a></strong></label>
+                        </div>
+                        <div class="form-group profile-element">
+                            <label for="budget">Budget: <strong>{{user.budget}}</strong></label>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="form-group">
-                <label for="description">Description:</label>
-                <div class="input-group input-group-btn">
-                    <textarea type="text" id="description" name="description" class="form-control"
-                              style="border-radius: 5px" rows="4">{{ user.description }}</textarea>
+                <br>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 form-group profile-element">
+                        <label for="gender">Gender: <strong>{{gender}}</strong></label>
+                    </div>
+                    <div class="col-md-6 col-sm-6 form-group profile-element">
+                        <label for="age">Age: <strong>{{user.age}}</strong></label>
+                    </div>
                 </div>
-
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 form-group profile-element" style="">
+                        <label for="description">Description: <strong>{{user.description}}</strong></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 form-group profile-element">
+                        <label for="likes">Likes: <strong>2</strong></label>
+                        <hr>
+                        <label for="latestlike">Latest Liked Product:</label>
+                        <br>
+                        <p>product name</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 form-group profile-element">
+                        <label for="comments">Comments: <strong>3</strong></label>
+                        <hr>
+                        <label for="comments">Latest Comment:</label>
+                        <br>
+                        <p>latest comment</p>
+                    </div>
+                </div>
             </div>
-            <br>
-            <button type="submit" class="btn btn-primary btn-lg">Confirm Changes</button>
-        </form>
+        {{/if}}
     </div>
 </div>

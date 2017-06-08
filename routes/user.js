@@ -43,6 +43,30 @@ router.get( '/auth/google/callback', passport.authenticate( 'google', {
         // });
 });
 
+router.get('/profile/:id', function(req, res, next) {
+    console.log(req.params.id);
+    User.findOne({'userID': req.params.id}, function(err, foundUser) {
+        if(err) {
+            throw err;
+        }
+        var notFound = "", hasError = false, gender = "unknown";
+        if(!foundUser) {
+            notFound = "This user doesn't exist!";
+            hasError = true;
+        } else {
+            gender = (foundUser.sex == "male"? "male": (foundUser.sex == "female"? "female" : "unknown"));
+            foundUser.image = gravatar.url(foundUser.email);
+        }
+
+        res.render('user/profile', {
+            user: foundUser,
+            gender: gender,
+            hasError: hasError,
+            message: notFound
+        });
+    });
+});
+
 router.post('/setting', isLoggedIn, function(req, res, next) {
     User.findOneAndUpdate({
         'email': req.session.user.email
@@ -68,7 +92,7 @@ router.use(csrfProtection);
 router.get('/account', isLoggedIn, function(req, res, next) {
     Order.find({user: req.user}, function(err, orders) {
         if(err) {
-            return res.write('This Error Shouldn\'t Have Happened :|');
+            throw err;
         }
         var cart;
         orders.forEach(function(order) {

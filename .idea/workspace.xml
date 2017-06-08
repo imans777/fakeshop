@@ -2,437 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ecd0c6b-09f8-4093-a24d-d9e17ba66928" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/base64url" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/base64url.cmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/base64url/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/base64url/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/base64url/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/base64url/bin/base64url" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/base64url/test/base64url.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/base64url/test/test.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/node_modules/base64url/dist/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/node_modules/base64url/dist/base64url.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/node_modules/base64url/dist/base64url.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/node_modules/base64url/dist/pad-string.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/node_modules/base64url/dist/pad-string.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/node_modules/base64url/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/node_modules/base64url/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/node_modules/base64url/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/node_modules/base64url/typings/globals/node/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/node_modules/base64url/typings/globals/node/typings.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/node_modules/base64url/typings/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/admin/email_migration_v2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/adsense/v1.2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/audit/v1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/autoscaler/v1beta2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/civicinfo/us_v1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/civicinfo/v1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/cloudmonitoring/v2beta1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/container/v1beta1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/coordinate/v1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/dataflow/v1beta3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/deploymentmanager/v2beta1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/dfareporting/v1.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/dfareporting/v1.2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/dfareporting/v1.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/dfareporting/v1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/dfareporting/v2.0.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/dns/v1beta1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/drive/v1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/freebase/v1-sandbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/freebase/v1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/freebase/v1sandbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/gan/v1beta1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/genomics/v1beta.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/genomics/v1beta2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/manager/v1beta2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/mapsengine/exp2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/mapsengine/v1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/pubsub/v1beta1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/reseller/v1sandbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/sqladmin/v1beta1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/jsdoc-conf.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/.bin/uuid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/.bin/uuid.cmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/asn1/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/asn1/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/asn1/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/asn1/lib/ber/errors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/asn1/lib/ber/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/asn1/lib/ber/reader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/asn1/lib/ber/types.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/asn1/lib/ber/writer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/asn1/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/asn1/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/asn1/tst/ber/reader.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/asn1/tst/ber/writer.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/assert-plus/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/assert-plus/assert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/assert-plus/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/async/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/async/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/async/lib/async.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/async/support/sync-package-managers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/aws-sign2/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/aws-sign2/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/aws-sign2/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/aws-sign2/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/boom/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/boom/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/boom/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/boom/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/boom/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/boom/images/boom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/boom/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/boom/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/boom/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/boom/test/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/caseless/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/caseless/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/caseless/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/caseless/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/combined-stream/License" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/combined-stream/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/combined-stream/lib/combined_stream.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/combined-stream/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/cryptiles/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/cryptiles/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/cryptiles/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/cryptiles/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/cryptiles/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/cryptiles/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/cryptiles/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/cryptiles/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/cryptiles/test/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/delayed-stream/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/delayed-stream/License" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/delayed-stream/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/delayed-stream/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/delayed-stream/lib/delayed_stream.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/delayed-stream/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/delayed-stream/test/common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/delayed-stream/test/integration/test-delayed-http-upload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/delayed-stream/test/integration/test-delayed-stream-auto-pause.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/delayed-stream/test/integration/test-delayed-stream-pause.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/delayed-stream/test/integration/test-delayed-stream.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/delayed-stream/test/integration/test-handle-source-errors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/delayed-stream/test/integration/test-max-data-size.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/delayed-stream/test/integration/test-pipe-resumes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/delayed-stream/test/integration/test-proxy-readable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/delayed-stream/test/run.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/forever-agent/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/forever-agent/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/forever-agent/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/forever-agent/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/form-data/License" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/form-data/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/form-data/lib/form_data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/form-data/node_modules/mime-types/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/form-data/node_modules/mime-types/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/form-data/node_modules/mime-types/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/form-data/node_modules/mime-types/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/form-data/node_modules/mime-types/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/form-data/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hawk/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hawk/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hawk/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hawk/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hawk/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hawk/example/usage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hawk/images/hawk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hawk/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hawk/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hawk/lib/browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hawk/lib/client.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hawk/lib/crypto.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hawk/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hawk/lib/server.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hawk/lib/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hawk/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hawk/test/browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hawk/test/client.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hawk/test/crypto.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hawk/test/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hawk/test/message.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hawk/test/readme.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hawk/test/server.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hawk/test/uri.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hawk/test/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hoek/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hoek/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hoek/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hoek/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hoek/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hoek/images/hoek.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hoek/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hoek/lib/escape.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hoek/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hoek/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hoek/test/escaper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hoek/test/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hoek/test/modules/test1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hoek/test/modules/test2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/hoek/test/modules/test3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/http-signature/.dir-locals.el" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/http-signature/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/http-signature/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/http-signature/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/http-signature/http_signing.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/http-signature/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/http-signature/lib/parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/http-signature/lib/signer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/http-signature/lib/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/http-signature/lib/verify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/http-signature/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/mime-db/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/mime-db/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/mime-db/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/mime-db/db.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/mime-db/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/mime-db/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/mime-types/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/mime-types/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/mime-types/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/mime-types/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/mime-types/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/mime-types/SOURCES.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/mime-types/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/mime-types/lib/custom.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/mime-types/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/mime-types/lib/mime.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/mime-types/lib/node.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/mime-types/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/node-uuid/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/node-uuid/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/node-uuid/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/node-uuid/benchmark/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/node-uuid/benchmark/bench.gnu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/node-uuid/benchmark/bench.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/node-uuid/benchmark/benchmark-native.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/node-uuid/benchmark/benchmark.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/node-uuid/bin/uuid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/node-uuid/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/node-uuid/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/node-uuid/lib/sha1-browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/node-uuid/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/node-uuid/test/compare_v1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/node-uuid/test/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/node-uuid/test/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/node-uuid/uuid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/node-uuid/v3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/oauth-sign/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/oauth-sign/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/oauth-sign/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/oauth-sign/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/oauth-sign/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/qs/.jshintignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/qs/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/qs/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/qs/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/qs/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/qs/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/qs/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/qs/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/qs/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/qs/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/qs/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/qs/lib/parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/qs/lib/stringify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/qs/lib/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/qs/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/qs/test/parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/qs/test/stringify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/request/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/request/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/request/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/request/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/request/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/request/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/request/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/request/disabled.appveyor.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/request/examples/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/request/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/request/lib/cookies.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/request/lib/copy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/request/lib/debug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/request/lib/helpers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/request/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/request/release.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/request/request.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/sntp/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/sntp/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/sntp/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/sntp/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/sntp/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/sntp/examples/offset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/sntp/examples/time.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/sntp/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/sntp/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/sntp/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/sntp/test/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/tunnel-agent/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/tunnel-agent/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/tunnel-agent/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/tunnel-agent/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/googleapis/templates/api-index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jwa/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jwa/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jwa/node_modules/base64url/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jwa/node_modules/base64url/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jwa/node_modules/base64url/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jwa/node_modules/base64url/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jwa/node_modules/base64url/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jwa/node_modules/base64url/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jwa/node_modules/base64url/test/base64url.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jwa/node_modules/base64url/test/test.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jwa/test/jwa.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jws/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jws/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jws/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jws/test/data.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jws/test/jws.test.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/passport.js" afterPath="$PROJECT_DIR$/config/passport.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/product.js" afterPath="$PROJECT_DIR$/models/product.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/user.js" afterPath="$PROJECT_DIR$/models/user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/base64url/index.js" afterPath="$PROJECT_DIR$/node_modules/base64url/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/base64url/package.json" afterPath="$PROJECT_DIR$/node_modules/base64url/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/base64url/readme.md" afterPath="$PROJECT_DIR$/node_modules/base64url/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/.npmignore" afterPath="$PROJECT_DIR$/node_modules/googleapis/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/COPYING" afterPath="$PROJECT_DIR$/node_modules/googleapis/COPYING" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/MIGRATING.md" afterPath="$PROJECT_DIR$/node_modules/googleapis/MIGRATING.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/README.md" afterPath="$PROJECT_DIR$/node_modules/googleapis/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/adexchangebuyer/v1.2.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/adexchangebuyer/v1.2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/adexchangebuyer/v1.3.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/adexchangebuyer/v1.3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/adexchangeseller/v1.1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/adexchangeseller/v1.1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/adexchangeseller/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/adexchangeseller/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/adexchangeseller/v2.0.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/adexchangeseller/v2.0.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/admin/directory_v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/admin/directory_v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/admin/reports_v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/admin/reports_v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/adsense/v1.3.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/adsense/v1.3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/adsense/v1.4.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/adsense/v1.4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/adsensehost/v4.1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/adsensehost/v4.1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/analytics/v2.4.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/analytics/v2.4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/analytics/v3.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/analytics/v3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/androidpublisher/v1.1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/androidpublisher/v1.1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/androidpublisher/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/androidpublisher/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/androidpublisher/v2.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/androidpublisher/v2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/appsactivity/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/appsactivity/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/appstate/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/appstate/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/bigquery/v2.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/bigquery/v2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/blogger/v2.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/blogger/v2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/blogger/v3.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/blogger/v3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/books/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/books/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/calendar/v3.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/calendar/v3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/civicinfo/v2.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/civicinfo/v2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/compute/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/compute/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/content/v2.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/content/v2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/customsearch/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/customsearch/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/datastore/v1beta1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/datastore/v1beta1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/datastore/v1beta2.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/datastore/v1beta2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/discovery/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/discovery/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/doubleclickbidmanager/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/doubleclickbidmanager/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/doubleclicksearch/v2.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/doubleclicksearch/v2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/drive/v2.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/drive/v2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/fitness/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/fitness/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/fusiontables/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/fusiontables/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/fusiontables/v2.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/fusiontables/v2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/games/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/games/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/gamesConfiguration/v1configuration.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/gamesConfiguration/v1configuration.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/gamesManagement/v1management.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/gamesManagement/v1management.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/gmail/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/gmail/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/groupsmigration/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/groupsmigration/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/groupssettings/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/groupssettings/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/identitytoolkit/v3.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/identitytoolkit/v3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/licensing/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/licensing/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/mirror/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/mirror/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/oauth2/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/oauth2/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/oauth2/v2.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/oauth2/v2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/pagespeedonline/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/pagespeedonline/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/pagespeedonline/v2.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/pagespeedonline/v2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/plus/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/plus/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/plusDomains/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/plusDomains/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/prediction/v1.2.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/prediction/v1.2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/prediction/v1.3.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/prediction/v1.3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/prediction/v1.4.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/prediction/v1.4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/prediction/v1.5.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/prediction/v1.5.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/prediction/v1.6.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/prediction/v1.6.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/qpxExpress/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/qpxExpress/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/replicapool/v1beta1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/replicapool/v1beta1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/replicapool/v1beta2.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/replicapool/v1beta2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/replicapoolupdater/v1beta1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/replicapoolupdater/v1beta1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/reseller/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/reseller/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/resourceviews/v1beta1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/resourceviews/v1beta1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/resourceviews/v1beta2.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/resourceviews/v1beta2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/siteVerification/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/siteVerification/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/spectrum/v1explorer.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/spectrum/v1explorer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/sqladmin/v1beta3.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/sqladmin/v1beta3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/storage/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/storage/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/storage/v1beta1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/storage/v1beta1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/storage/v1beta2.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/storage/v1beta2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/tagmanager/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/tagmanager/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/taskqueue/v1beta1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/taskqueue/v1beta1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/taskqueue/v1beta2.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/taskqueue/v1beta2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/tasks/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/tasks/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/translate/v2.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/translate/v2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/urlshortener/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/urlshortener/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/webfonts/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/webfonts/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/webmasters/v3.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/webmasters/v3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/youtube/v3.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/youtube/v3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/youtubeAnalytics/v1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/youtubeAnalytics/v1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/apis/youtubeAnalytics/v1beta1.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/apis/youtubeAnalytics/v1beta1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/lib/apirequest.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/lib/apirequest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/lib/auth/authclient.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/lib/auth/authclient.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/lib/auth/computeclient.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/lib/auth/computeclient.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/lib/auth/jwtclient.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/lib/auth/jwtclient.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/lib/auth/loginticket.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/lib/auth/loginticket.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/lib/auth/oauth2client.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/lib/auth/oauth2client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/lib/generator.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/lib/generator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/lib/googleapis.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/lib/googleapis.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/lib/pemverifier.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/lib/pemverifier.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/lib/transporters.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/lib/transporters.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/lib/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/async/LICENSE" afterPath="$PROJECT_DIR$/node_modules/googleapis/node_modules/async/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/async/README.md" afterPath="$PROJECT_DIR$/node_modules/googleapis/node_modules/async/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/async/bower.json" afterPath="$PROJECT_DIR$/node_modules/googleapis/node_modules/async/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/node_modules/async/package.json" afterPath="$PROJECT_DIR$/node_modules/googleapis/node_modules/async/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/package.json" afterPath="$PROJECT_DIR$/node_modules/googleapis/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/scripts/generate.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/scripts/generate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/templates/api-endpoint.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/templates/api-endpoint.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/templates/method-partial.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/templates/method-partial.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/googleapis/templates/resource-partial.js" afterPath="$PROJECT_DIR$/node_modules/googleapis/templates/resource-partial.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jwa/.npmignore" afterPath="$PROJECT_DIR$/node_modules/jwa/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jwa/LICENSE" afterPath="$PROJECT_DIR$/node_modules/jwa/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jwa/README.md" afterPath="$PROJECT_DIR$/node_modules/jwa/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jwa/index.js" afterPath="$PROJECT_DIR$/node_modules/jwa/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jwa/package.json" afterPath="$PROJECT_DIR$/node_modules/jwa/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jws/.npmignore" afterPath="$PROJECT_DIR$/node_modules/jws/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jws/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/jws/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jws/LICENSE" afterPath="$PROJECT_DIR$/node_modules/jws/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jws/index.js" afterPath="$PROJECT_DIR$/node_modules/jws/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jws/lib/data-stream.js" afterPath="$PROJECT_DIR$/node_modules/jws/lib/data-stream.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jws/lib/sign-stream.js" afterPath="$PROJECT_DIR$/node_modules/jws/lib/sign-stream.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jws/lib/tostring.js" afterPath="$PROJECT_DIR$/node_modules/jws/lib/tostring.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jws/lib/verify-stream.js" afterPath="$PROJECT_DIR$/node_modules/jws/lib/verify-stream.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jws/package.json" afterPath="$PROJECT_DIR$/node_modules/jws/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jws/readme.md" afterPath="$PROJECT_DIR$/node_modules/jws/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/string-template/.npmignore" afterPath="$PROJECT_DIR$/node_modules/string-template/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/string-template/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/string-template/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/string-template/LICENCE" afterPath="$PROJECT_DIR$/node_modules/string-template/LICENCE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/string-template/Readme.md" afterPath="$PROJECT_DIR$/node_modules/string-template/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/string-template/compile.js" afterPath="$PROJECT_DIR$/node_modules/string-template/compile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/string-template/index.js" afterPath="$PROJECT_DIR$/node_modules/string-template/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/string-template/package.json" afterPath="$PROJECT_DIR$/node_modules/string-template/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/csrf/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/csrf/HISTORY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/csrf/LICENSE" afterPath="$PROJECT_DIR$/node_modules/csrf/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/csrf/README.md" afterPath="$PROJECT_DIR$/node_modules/csrf/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/csrf/index.js" afterPath="$PROJECT_DIR$/node_modules/csrf/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/csrf/package.json" afterPath="$PROJECT_DIR$/node_modules/csrf/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/csurf/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/csurf/HISTORY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/csurf/LICENSE" afterPath="$PROJECT_DIR$/node_modules/csurf/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/csurf/README.md" afterPath="$PROJECT_DIR$/node_modules/csurf/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/csurf/index.js" afterPath="$PROJECT_DIR$/node_modules/csurf/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/csurf/node_modules/http-errors/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/csurf/node_modules/http-errors/HISTORY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/csurf/node_modules/http-errors/LICENSE" afterPath="$PROJECT_DIR$/node_modules/csurf/node_modules/http-errors/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/csurf/node_modules/http-errors/README.md" afterPath="$PROJECT_DIR$/node_modules/csurf/node_modules/http-errors/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/csurf/node_modules/http-errors/index.js" afterPath="$PROJECT_DIR$/node_modules/csurf/node_modules/http-errors/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/csurf/node_modules/http-errors/package.json" afterPath="$PROJECT_DIR$/node_modules/csurf/node_modules/http-errors/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/csurf/node_modules/setprototypeof/LICENSE" afterPath="$PROJECT_DIR$/node_modules/csurf/node_modules/setprototypeof/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/csurf/node_modules/setprototypeof/README.md" afterPath="$PROJECT_DIR$/node_modules/csurf/node_modules/setprototypeof/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/csurf/node_modules/setprototypeof/index.js" afterPath="$PROJECT_DIR$/node_modules/csurf/node_modules/setprototypeof/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/csurf/node_modules/setprototypeof/package.json" afterPath="$PROJECT_DIR$/node_modules/csurf/node_modules/setprototypeof/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/csurf/package.json" afterPath="$PROJECT_DIR$/node_modules/csurf/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rndm/LICENSE" afterPath="$PROJECT_DIR$/node_modules/rndm/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rndm/README.md" afterPath="$PROJECT_DIR$/node_modules/rndm/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rndm/index.js" afterPath="$PROJECT_DIR$/node_modules/rndm/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rndm/package.json" afterPath="$PROJECT_DIR$/node_modules/rndm/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tsscmp/.npmignore" afterPath="$PROJECT_DIR$/node_modules/tsscmp/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tsscmp/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/tsscmp/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tsscmp/LICENSE" afterPath="$PROJECT_DIR$/node_modules/tsscmp/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tsscmp/README.md" afterPath="$PROJECT_DIR$/node_modules/tsscmp/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tsscmp/appveyor.yml" afterPath="$PROJECT_DIR$/node_modules/tsscmp/appveyor.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tsscmp/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/tsscmp/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tsscmp/package.json" afterPath="$PROJECT_DIR$/node_modules/tsscmp/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tsscmp/test/benchmark/index.js" afterPath="$PROJECT_DIR$/node_modules/tsscmp/test/benchmark/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tsscmp/test/unit/index.js" afterPath="$PROJECT_DIR$/node_modules/tsscmp/test/unit/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/checkout.js" afterPath="$PROJECT_DIR$/public/javascripts/checkout.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/user.js" afterPath="$PROJECT_DIR$/routes/user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/user/signin.hbs" afterPath="$PROJECT_DIR$/views/user/signin.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/user/signup.hbs" afterPath="$PROJECT_DIR$/views/user/signup.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layouts/layout.hbs" afterPath="$PROJECT_DIR$/views/layouts/layout.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/shop/index.hbs" afterPath="$PROJECT_DIR$/views/shop/index.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/shop/product.hbs" afterPath="$PROJECT_DIR$/views/shop/product.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/user/profile.hbs" afterPath="$PROJECT_DIR$/views/user/profile.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/user/setting.hbs" afterPath="$PROJECT_DIR$/views/user/setting.hbs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -453,74 +67,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state relative-caret-position="170">
+              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
               <folding>
-                <element signature="e#2211#4702#0" expanded="false" />
-                <element signature="e#4758#5101#0" expanded="false" />
-                <element signature="e#5161#5477#0" expanded="false" />
-                <element signature="e#5532#5734#0" expanded="false" />
-                <element signature="e#5789#5990#0" expanded="false" />
-                <element signature="e#6048#6278#0" expanded="false" />
-                <element signature="e#6343#6616#0" expanded="false" />
-                <element signature="e#6683#7673#0" expanded="false" />
-                <element signature="e#7741#7993#0" expanded="false" />
-                <element signature="e#8062#8625#0" expanded="false" />
-                <element signature="n#!!block;n#getProducts#0" expanded="false" />
+                <element signature="e#5846#6048#0" expanded="false" />
+                <element signature="e#6103#6304#0" expanded="false" />
+                <element signature="e#6362#6592#0" expanded="false" />
+                <element signature="e#6657#6930#0" expanded="false" />
+                <element signature="e#6997#7987#0" expanded="false" />
                 <element signature="n#!!block;n#isLoggedIn#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signup.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/user/signup.hbs">
+      <file leaf-file-name="profile.hbs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/user/profile.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="29" column="83" lean-forward="false" selection-start-line="29" selection-start-column="83" selection-end-line="29" selection-end-column="83" />
+            <state relative-caret-position="204">
+              <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signin.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/user/signin.hbs">
+      <file leaf-file-name="add-product.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/shop/add-product.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="27" column="83" lean-forward="false" selection-start-line="27" selection-start-column="83" selection-end-line="27" selection-end-column="83" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="passport.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/passport.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="200" column="64" lean-forward="false" selection-start-line="200" selection-start-column="17" selection-end-line="200" selection-end-column="64" />
+            <state relative-caret-position="-51">
+              <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -529,16 +107,21 @@
       <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="190" column="12" lean-forward="true" selection-start-line="190" selection-start-column="12" selection-end-line="190" selection-end-column="12" />
+            <state relative-caret-position="216">
+              <caret line="94" column="22" lean-forward="false" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
               <folding>
-                <element signature="e#1425#2045#0" expanded="false" />
-                <element signature="e#2138#2540#0" expanded="false" />
-                <element signature="e#3579#3623#0" expanded="false" />
-                <element signature="e#3681#3696#0" expanded="false" />
-                <element signature="e#3747#3904#0" expanded="false" />
-                <element signature="e#4060#4802#0" expanded="false" />
-                <element signature="e#4853#5010#0" expanded="false" />
+                <element signature="e#383#503#0" expanded="false" />
+                <element signature="e#580#669#0" expanded="false" />
+                <element signature="e#697#1360#0" expanded="false" />
+                <element signature="e#2180#2800#0" expanded="false" />
+                <element signature="e#4285#4329#0" expanded="false" />
+                <element signature="e#4387#4402#0" expanded="false" />
+                <element signature="e#4453#4610#0" expanded="false" />
+                <element signature="e#4675#4738#0" expanded="false" />
+                <element signature="e#4766#5508#0" expanded="false" />
+                <element signature="e#5559#5716#0" expanded="false" />
+                <element signature="e#5781#5844#0" expanded="false" />
+                <element signature="e#5872#6864#0" expanded="false" />
                 <element signature="n#!!block;n#isLoggedIn#0" expanded="false" />
                 <element signature="n#!!block;n#notLoggedIn#0" expanded="false" />
               </folding>
@@ -546,23 +129,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="152" column="3" lean-forward="true" selection-start-line="152" selection-start-column="3" selection-end-line="152" selection-end-column="3" />
-              <folding>
-                <element signature="e#1712#1738#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="checkout.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/checkout.js">
+      <file leaf-file-name="product.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/product.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="289">
+              <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setting.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/user/setting.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="113" lean-forward="false" selection-start-line="12" selection-start-column="113" selection-end-line="12" selection-end-column="113" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/shop/product.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" column="117" lean-forward="false" selection-start-line="21" selection-start-column="117" selection-end-line="21" selection-end-column="117" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/shop/index.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="37" column="126" lean-forward="true" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="126" />
               <folding />
             </state>
           </provider>
@@ -579,6 +190,7 @@
       <find>script</find>
       <find>profile</find>
       <find>serializeUser</find>
+      <find>getProducts</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -592,24 +204,24 @@
         <option value="$PROJECT_DIR$/views/shop/shopping-cart.hbs" />
         <option value="$PROJECT_DIR$/views/shop/add-product.hbs" />
         <option value="$PROJECT_DIR$/models/order.js" />
-        <option value="$PROJECT_DIR$/models/product.js" />
-        <option value="$PROJECT_DIR$/views/shop/product.hbs" />
         <option value="$PROJECT_DIR$/views/partials/footer.hbs" />
-        <option value="$PROJECT_DIR$/views/layouts/layout.hbs" />
-        <option value="$PROJECT_DIR$/views/user/setting.hbs" />
         <option value="$PROJECT_DIR$/views/partials/header.hbs" />
         <option value="$PROJECT_DIR$/views/user/account.hbs" />
-        <option value="$PROJECT_DIR$/views/user/profile.hbs" />
-        <option value="$PROJECT_DIR$/views/shop/index.hbs" />
-        <option value="$PROJECT_DIR$/public/javascripts/checkout.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/models/user.js" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/config/passport.js" />
-        <option value="$PROJECT_DIR$/routes/user.js" />
-        <option value="$PROJECT_DIR$/views/user/signin.hbs" />
         <option value="$PROJECT_DIR$/views/user/signup.hbs" />
+        <option value="$PROJECT_DIR$/views/user/signin.hbs" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/views/layouts/layout.hbs" />
+        <option value="$PROJECT_DIR$/public/javascripts/checkout.js" />
+        <option value="$PROJECT_DIR$/models/user.js" />
+        <option value="$PROJECT_DIR$/views/user/setting.hbs" />
+        <option value="$PROJECT_DIR$/routes/user.js" />
+        <option value="$PROJECT_DIR$/views/shop/index.hbs" />
+        <option value="$PROJECT_DIR$/models/product.js" />
+        <option value="$PROJECT_DIR$/views/shop/product.hbs" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/views/user/profile.hbs" />
       </list>
     </option>
   </component>
@@ -679,6 +291,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -720,6 +334,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fakeshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fakeshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -857,8 +489,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -875,12 +505,12 @@
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Iman\Desktop\Works\JS\fakeshop\public\images" />
-      <recent name="C:\Users\Iman\Desktop\Works\JS\fakeshop\views\user" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Iman\Desktop\Works\JS\fakeshop\views\layouts" />
+      <recent name="C:\Users\Iman\Desktop\Works\JS\fakeshop\views\user" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Iman\Desktop\Works\JS\fakeshop\public\images" />
       <recent name="C:\Users\Iman\Desktop\Works\JS\fakeshop\views\user" />
     </key>
   </component>
@@ -896,7 +526,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
     <configuration default="false" name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run-script" />
@@ -993,12 +623,13 @@
       <workItem from="1492179080615" duration="24466000" />
       <workItem from="1492261760175" duration="24516000" />
       <workItem from="1494897851497" duration="10777000" />
-      <workItem from="1495145927499" duration="42298000" />
+      <workItem from="1495145927499" duration="44767000" />
+      <workItem from="1496784716873" duration="22016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145290000" />
+    <option name="totallyTimeSpent" value="169775000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1013,23 +644,23 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21949404" sideWeight="0.8265139" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1688988" sideWeight="0.61538464" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22258593" sideWeight="0.5119048" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34369886" sideWeight="0.51488096" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45662847" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21949404" sideWeight="0.17348608" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33878887" sideWeight="0.48809522" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19639935" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34369886" sideWeight="0.48511904" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25372022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57610476" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13988096" sideWeight="0.3846154" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21949404" sideWeight="0.17348608" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.03927987" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1063,33 +694,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1598">
-          <caret line="94" column="52" lean-forward="false" selection-start-line="94" selection-start-column="52" selection-end-line="94" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/shop/checkout.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="93" lean-forward="false" selection-start-line="12" selection-start-column="93" selection-end-line="12" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/checkout.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -1109,7 +718,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#5846#6048#0" expanded="false" />
+            <element signature="e#6103#6304#0" expanded="false" />
+            <element signature="e#6362#6592#0" expanded="false" />
+            <element signature="e#6657#6930#0" expanded="false" />
+            <element signature="e#6997#7987#0" expanded="false" />
+            <element signature="n#!!block;n#isLoggedIn#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1126,8 +742,7 @@
         <state relative-caret-position="867">
           <caret line="51" column="34" lean-forward="false" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
           <folding>
-            <element signature="e#1229#1438#0" expanded="false" />
-            <element signature="e#1613#1707#0" expanded="false" />
+            <element signature="e#1712#1738#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1167,8 +782,7 @@
         <state relative-caret-position="867">
           <caret line="51" column="34" lean-forward="false" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
           <folding>
-            <element signature="e#1229#1438#0" expanded="false" />
-            <element signature="e#1613#1707#0" expanded="false" />
+            <element signature="e#1712#1738#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1177,7 +791,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1547">
           <caret line="91" column="21" lean-forward="true" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="e#5846#6048#0" expanded="false" />
+            <element signature="e#6103#6304#0" expanded="false" />
+            <element signature="e#6362#6592#0" expanded="false" />
+            <element signature="e#6657#6930#0" expanded="false" />
+            <element signature="e#6997#7987#0" expanded="false" />
+            <element signature="n#!!block;n#isLoggedIn#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1193,8 +814,7 @@
         <state relative-caret-position="306">
           <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding>
-            <element signature="e#1229#1438#0" expanded="false" />
-            <element signature="e#1613#1707#0" expanded="false" />
+            <element signature="e#1712#1738#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1231,7 +851,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#5846#6048#0" expanded="false" />
+            <element signature="e#6103#6304#0" expanded="false" />
+            <element signature="e#6362#6592#0" expanded="false" />
+            <element signature="e#6657#6930#0" expanded="false" />
+            <element signature="e#6997#7987#0" expanded="false" />
+            <element signature="n#!!block;n#isLoggedIn#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1270,13 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/order.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1288,13 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="47" lean-forward="false" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/shop/add-product.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1319,40 +932,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/signin_google_button.png" />
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="e#1712#1738#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/passport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="151" column="11" lean-forward="true" selection-start-line="151" selection-start-column="11" selection-end-line="151" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/user/signup.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="3692" column="15" lean-forward="true" selection-start-line="3692" selection-start-column="15" selection-end-line="3692" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/kareem/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="277" column="5" lean-forward="true" selection-start-line="277" selection-start-column="5" selection-end-line="277" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/user/signin.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/partials/footer.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/shop/product.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/user/account.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/shop/index.hbs">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/checkout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/user/setting.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1365,121 +1007,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/user/profile.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="152" column="3" lean-forward="true" selection-start-line="152" selection-start-column="3" selection-end-line="152" selection-end-column="3" />
-          <folding>
-            <element signature="e#1712#1738#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/checkout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/signin_google_button.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/passport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="200" column="64" lean-forward="false" selection-start-line="200" selection-start-column="17" selection-end-line="200" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="190" column="12" lean-forward="true" selection-start-line="190" selection-start-column="12" selection-end-line="190" selection-end-column="12" />
-          <folding>
-            <element signature="e#1425#2045#0" expanded="false" />
-            <element signature="e#2138#2540#0" expanded="false" />
-            <element signature="e#3579#3623#0" expanded="false" />
-            <element signature="e#3681#3696#0" expanded="false" />
-            <element signature="e#3747#3904#0" expanded="false" />
-            <element signature="e#4060#4802#0" expanded="false" />
-            <element signature="e#4853#5010#0" expanded="false" />
-            <element signature="n#!!block;n#isLoggedIn#0" expanded="false" />
-            <element signature="n#!!block;n#notLoggedIn#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/layouts/layout.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/user/signup.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="83" lean-forward="false" selection-start-line="29" selection-start-column="83" selection-end-line="29" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/user/signin.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="27" column="83" lean-forward="false" selection-start-line="27" selection-start-column="83" selection-end-line="27" selection-end-column="83" />
+        <state relative-caret-position="357">
+          <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        <state relative-caret-position="319">
+          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/user/account.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/user/setting.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="113" lean-forward="false" selection-start-line="12" selection-start-column="113" selection-end-line="12" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shop/add-product.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="94" column="22" lean-forward="false" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+          <folding>
+            <element signature="e#383#503#0" expanded="false" />
+            <element signature="e#580#669#0" expanded="false" />
+            <element signature="e#697#1360#0" expanded="false" />
+            <element signature="e#2180#2800#0" expanded="false" />
+            <element signature="e#4285#4329#0" expanded="false" />
+            <element signature="e#4387#4402#0" expanded="false" />
+            <element signature="e#4453#4610#0" expanded="false" />
+            <element signature="e#4675#4738#0" expanded="false" />
+            <element signature="e#4766#5508#0" expanded="false" />
+            <element signature="e#5559#5716#0" expanded="false" />
+            <element signature="e#5781#5844#0" expanded="false" />
+            <element signature="e#5872#6864#0" expanded="false" />
+            <element signature="n#!!block;n#isLoggedIn#0" expanded="false" />
+            <element signature="n#!!block;n#notLoggedIn#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shop/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="37" column="126" lean-forward="true" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="126" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shop/product.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="117" lean-forward="false" selection-start-line="21" selection-start-column="117" selection-end-line="21" selection-end-column="117" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="170">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding>
-            <element signature="e#2211#4702#0" expanded="false" />
-            <element signature="e#4758#5101#0" expanded="false" />
-            <element signature="e#5161#5477#0" expanded="false" />
-            <element signature="e#5532#5734#0" expanded="false" />
-            <element signature="e#5789#5990#0" expanded="false" />
-            <element signature="e#6048#6278#0" expanded="false" />
-            <element signature="e#6343#6616#0" expanded="false" />
-            <element signature="e#6683#7673#0" expanded="false" />
-            <element signature="e#7741#7993#0" expanded="false" />
-            <element signature="e#8062#8625#0" expanded="false" />
-            <element signature="n#!!block;n#getProducts#0" expanded="false" />
+            <element signature="e#5846#6048#0" expanded="false" />
+            <element signature="e#6103#6304#0" expanded="false" />
+            <element signature="e#6362#6592#0" expanded="false" />
+            <element signature="e#6657#6930#0" expanded="false" />
+            <element signature="e#6997#7987#0" expanded="false" />
             <element signature="n#!!block;n#isLoggedIn#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/user/profile.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>

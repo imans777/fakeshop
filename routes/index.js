@@ -5,18 +5,19 @@ var url = require('url');
 var qs = require('query-string');
 
 var Cart = require('../models/cart');
+var User = require('../models/user');
 var Product = require('../models/product');
 var Order = require('../models/order');
-var User = require('../models/user');
 
 /*
  ------------------ DONE ------------->
  --TODO: /product/:id 	-> individual product page for more information and ...
  --TODO: /?title="b"		-> be a filter-like for products / if products e.g more than 20, have next pages for it / search button
- TODO: /user/signin		-> login via username too / login via google too
+ --TODO: /user/signin		-> login via username too / login via google too
+ --TODO: /user/pro/username-> show the 'username's profile (username/email/gravatar!/number of posts/number of bills/number of being likeds/last comment!)
+ --TODO: brief description has been optimized
 
  ------------------ WORKING ON THEM -->
- TODO: /user/pro?username-> show the 'username's profile (username/email/gravatar!/number of posts/number of bills/number of being likeds/last comment!)
 
  ------------------ WILL BE DONE ----->
  -TODO: /user/bills	 	-> all the bought products, or better to say bills
@@ -35,20 +36,20 @@ var User = require('../models/user');
 */
 
 
-var google = require('googleapis');
-var OAuth2 = google.auth.OAuth2;
-
-var oauth2Client = new OAuth2(
-    '855842568245-o6avt6qd8psun8go0eauherhk9uhk53l.apps.googleusercontent.com',
-    'IPRMrsrtVHGF9yYS7hqP9IZu',
-    'http://localhost:3000'
-);
+// var google = require('googleapis');
+// var OAuth2 = google.auth.OAuth2;
+//
+// var oauth2Client = new OAuth2(
+//     '855842568245-o6avt6qd8psun8go0eauherhk9uhk53l.apps.googleusercontent.com',
+//     'IPRMrsrtVHGF9yYS7hqP9IZu',
+//     'http://localhost:3000'
+// );
 
 // generate a url that asks permissions for Google+ and Google Calendar scopes
-var scopes = [
-    'https://www.googleapis.com/auth/plus.me',
-    'https://www.googleapis.com/auth/calendar'
-];
+// var scopes = [
+//     'https://www.googleapis.com/auth/plus.me',
+//     'https://www.googleapis.com/auth/calendar'
+// ];
 //
 // module.exports = {
 //     google: google,
@@ -60,16 +61,16 @@ var scopes = [
 /* GET home page. */
 router.get('/', function(req, res, next) {
 
-	if(req.query.code)
-	{
-        oauth2Client.getToken(req.query.code, function (err, tokens) {
-            // Now tokens contains an access_token and an optional refresh_token. Save them.
-            if (!err) {
-                oauth2Client.setCredentials(tokens);
-                console.log("SUCCESSFULLY! " + tokens);
-            }
-        });
-	}
+	// if(req.query.code)
+	// {
+     //    oauth2Client.getToken(req.query.code, function (err, tokens) {
+     //        // Now tokens contains an access_token and an optional refresh_token. Save them.
+     //        if (!err) {
+     //            oauth2Client.setCredentials(tokens);
+     //            console.log("SUCCESSFULLY! " + tokens);
+     //        }
+     //    });
+	// }
 
     // var searchedTitle = decodeURI(url.parse(req.url).query);
     // var questionTitle = searchedTitle.substr(0, searchedTitle.indexOf('='));
@@ -136,18 +137,24 @@ router.get('/', function(req, res, next) {
 
 router.get('/product/:id', function(req, res, next) {
 	Product.findById(req.params.id, function(err, product) {
-		if(err) {
+		if(err || !product) {
 			res.render('shop/product', {
 				message: "Product Not Found!",
-				hasProblem: true,
-				notProblem: false
+				hasProblem: true
 			});
 		}
 		else {
-            res.render('shop/product', {
-                product: product,
-                notProblem: true
+            User.findById(product.owner, function(err, user) {
+                if(err) {
+                    throw err;
+                }
+                product.owner = user;
+                res.render('shop/product', {
+                    product: product,
+                    hasProblem: false
+                });
             });
+
         }
 	});
 });
@@ -263,18 +270,22 @@ router.get('/add-product', isLoggedIn, function(req, res, next) {
 });
 
 router.post('/add-product', isLoggedIn, function(req, res, next) {
-	var c_date = new Date();
+	// var c_date = new Date();
+    // console.log(req.session.user);
 	var product = new Product({
         imagePath: req.body.imageurl,
-        owner: req.user.username,
+        owner: req.session.user,
 		title: req.body.title,
-        brief_description: req.body.description.substr(0,200),
+        // brief_description: req.body.description.substr(0,200),
 		description: req.body.description,
-		date: c_date.getUTCFullYear() + "/" + c_date.getMonth() + "/" + c_date.getDay() + " " + c_date.getUTCHours() + ":" + c_date.getMinutes(),
+		// date: c_date.getUTCFullYear() + "/" + c_date.getMonth() + "/" + c_date.getDay() + " " + c_date.getUTCHours() + ":" + c_date.getMinutes(),
 		price: req.body.price
 	});
-
-	product.save(function(err, result) {
+    console.log(product.owner);
+	product.save(function(err, prdct) {
+		if(err) {
+			throw err;
+		}
 		req.flash('success-addition', 'Product Successfully Added!');
 		res.redirect('add-product');
 	});
@@ -283,6 +294,14 @@ router.post('/add-product', isLoggedIn, function(req, res, next) {
 module.exports = router;
 
 function getProducts(docs) {
+    docs.forEach(function(doc, i) {
+        User.findById(doc.owner, function(err, user) {
+            if(err) {
+                return;
+            }
+            docs[i].owner = user;
+        });
+    });
     var productChunks = [];
     var chunckSize = 3;
     for (var i = 0; i < docs.length; i += chunckSize) {

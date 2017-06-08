@@ -10,7 +10,7 @@
         </div>
         <form action="/user/setting" method="post">
             <div class="form-group">
-                <label for="username">Username: <strong style="color: blue;"><a href="/user/account">{{user.username}}</a></strong></label>
+                <label for="username">Username: <strong style="color: blue;"><a href="/user/profile/{{user.userID}}">{{user.username}}</a></strong></label>
             </div>
             <div class="form-group">
                 <label for="username">E-mail: <strong style="color: blue;"><a href="mailto:{{ user.email }}">{{user.email}}</a></strong></label>

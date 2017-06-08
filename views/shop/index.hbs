@@ -31,12 +31,12 @@
           <img src="{{this.imagePath}}" alt="..." class="img-responsive" id="general_img">
           <div class="caption">
 
-            <p class="description">{{this.brief_description}}...</p>
+            <p class="description">{{this.descriptionBrief}}...</p>
             <div>
               <div class="clearfix">
                 <br>
-                <div class="pull-left">&nbsp;Author: {{this.owner}}</div>
-                <div class="pull-right">{{this.date}}</div>
+                <div class="pull-left">&nbsp;Author: <a href="/user/profile/{{this.owner.userID}}">{{this.owner.username}}</a></div>
+                <div class="pull-right">{{this.dateFromNow}}</div>
                 <br>
                 <a href="/product/{{this._id}}" class="btn btn-default pull-left btn-primary" role="button">Details ...</a>
                 <a href="/add-to-cart/{{this._id}}" class="btn btn-default pull-right btn-success" role="button">Add To Cart</a>

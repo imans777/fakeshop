@@ -1,6 +1,8 @@
-Stripe.setPublishableKey('sk_test_n3yFkI8wO1bOlrzY9lKCYXi2');
+// Stripe.setPublishableKey('sk_test_n3yFkI8wO1bOlrzY9lKCYXi2');
 
+/* TEST */
 
+/* TEST */
 
 function signInCallback(authResult) {
     if (authResult.code) {
